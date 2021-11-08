@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0c0c9819d6.js" crossorigin="anonymous"></script>
+    <title>Kinh Giao Ban - Gia Đình Thánh Tâm</title>
+    <link rel="icon" href="sacred-heart.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="welcome">
+            <div class="title">
+                <h1>Kinh Giao Ban</h1>
+                <h3>Gia Đình Thánh Tâm</h3>
+            </div>
+
+            <div class=" option subject-option">
+                <p>Đối tượng:</p>
+
+                <input type="radio" name="subject" id="father" value="father">
+                <label for="father">Người cha</label>
+    
+                <input type="radio" name="subject" id="mother" value="mother">
+                <label for="mother">Người mẹ</label>
+    
+                <input type="radio" name="subject" id="child" value="child">
+                <label for="child">Người con</label>
+            </div>
+
+            <div class="option sant-name-option">
+                <p>Tên thánh:</p>
+
+                <input type="radio" name="sant-name" id="gioan" value="gioan">
+                <label for="gioan">Gioan</label>
+            
+                <input type="radio" name="sant-name" id="giuse" value="giuse">
+                <label for="giuse">Giuse</label>
+            
+
+                <input type="radio" name="sant-name" id="anton" value="anton">
+                <label for="anton">Antôn</label>
+            
+                <input type="radio" name="sant-name" id="maria" value="maria">
+                <label for="maria">Maria</label>
+            
+                <input type="radio" name="sant-name" id="terexa" value="terexa">
+                <label for="terexa">Têrêxa</label>
+            
+                <input type="radio" name="sant-name" id="matta" value="matta">
+                <label for="matta">Matta</label>
+            </div>
+
+            <button onclick="switchContent()">Bắt đầu</button>
+        </div>
+
+        <div id="content">
+            <section>
+                <h3>Kinh Đức Chúa Thánh Thần</h3>
+            </section>
+
+            <section>
+                <h3>Kinh Lạy Cha </br> Kinh Kính Mừng </br> Kinh Sáng Danh</h3>
+            </section>
+
+            <section>
+                <h3>Kinh Cầu Xin Chúa Thánh Thần</h3>
+                <p>Lạy Thiên Chúa là Đấng đã ban Chúa Thánh Thần để dẫn đưa các tín hữu đi vào ánh sáng chân lý, xin ban cho chúng con được nếm cảm sự khôn ngoan đích thực trong Chúa Thánh Thần và luôn được hưởng nhờ sự trợ giúp của Ngài. Nhờ Đức Kitô Chúa chúng con. Amen.</p>
+            </section>
+            
+            <section>
+                <h3>Lời Kinh Hằng Ngày</h3>
+                <p>Lạy Đấng Vô Nhiễm Nguyên Tội, Nữ Vương trời đất, là nơi trú ẩn của các tội nhân và là Mẹ chí ái, là Đấng mà Thiên Chúa đã muốn ủy thác cho mọi thứ nhân ái, con phủ phục trước Mẹ bởi vì con là tội nhân đáng thương, con khiêm tốn nài xin Mẹ nhận lấy toàn thân con như của riêng Mẹ, và xin hãy thực hiện những gì vừa ý Mẹ, nơi người con, nơi mọi khả năng hồn xác của con, nơi mạng sống, cái chết và cuộc đời mai hậu của con.</p>
+                <p>Xin hãy làm nơi con điều Mẹ muốn để thành toàn điều đã được viết về Mẹ: <i>“Bà sẽ đạp nát đầu con rắn”</i> và lời này nữa: <i>“Nhờ Mẹ mọi thuyết thế tục đã bị dẹp tan”</i>.</p>
+                <p>Ước gì con trở thành một khí cụ dễ sử dụng trong bàn tay vô tội chí ái của Mẹ, để các tâm hồn nguộn lạnh và lạc lối nhận biết về Mẹ, yêu mến Mẹ, nhờ đó phát huy vương quyền rất thánh của Chúa Giêsu mỗi ngày mỗi nhanh chóng hơn.</p>
+                <p>Quả thật, Mẹ tới nơi nào, thì đem tới đó ơn hoán cải và thánh hóa các tâm hồn, bởi vì mọi ơn phát xuất từ Thánh Tâm Chúa Giêsu đến trên chúng con đều đi qua tay Mẹ.</p>
+                <p>
+                    - Lạy Trái Tim Vô Nhiễm Mẹ Maria, xin cầu cho chúng con.</br>
+                    - Lạy Trái Tim của Đức Mẹ Maria, xin dẫn đưa chúng con đến với Chúa Giêsu.</br>
+                    - Lạy Thánh Tâm Chúa Giêsu, xin cho nước Chúa trị đến.</br>
+                    - Lạy Thánh Tâm Chúa Giêsu, con tin cậy vào Ngài.</br>
+                    - Lạy Thánh Tâm Chúa Giêsu, con yêu mến Ngài.</br>
+                </p>
+            </section>
+
+            <section>
+                <h3>Ngày thứ chín</h3>
+                <p><b>“Thánh Tâm Chúa Giêsu dẫn đưa chúng ta</br>đến cùng Chúa Cha”</b></p>
+                <p><i>“Lạy Cha giờ đã đến, xin hãy làm vinh hiển Con Cha, để Con làm vinh hiển Cha, như Cha đã ban cho Con quyền trên mọi huyết nhục, để Con ban sự sống đời đời cho mọi kẻ Cha giao phó cho Con. Mà sự sống đời đời chính là chúng nhận biết Cha, Thiên Chúa duy nhất, chân thật, và Đấng Cha đã sai đến là Đức Kitô”</i>. Trong lần hiện ra đầu tiên sau phục sinh, Chúa Giêsu yêu cầu Maria Mađalêna chớ đụng đến Ngài vì Ngài chưa lên cùng Cha. Chúa Giêsu đã yêu mến nhà Cha, khi mọi người đến lượt mình cũng sẽ vào đó với Chúa Kitô.</p>
+                <p>Nhưng trên dương thế này, điều quan trọng hơn cả, chính là thực hiện thánh ý Chúa Giêsu. Ngài nói với Maria: <i>“Hãy đi gặp và nói với anh em Ta rằng: “Ta về cùng Cha Ta cũng là Cha các con, về cùng Thiên Chúa Ta cũng là Thiên Chúa các con””</i>. Chúa Giêsu đã làm cho chúng ta xứng đáng trở nên nghĩa tử của Cha Ngài, <i>“đừng sợ hỡi đoàn con bé nhỏ, vì Cha các con đã vui lòng ban Nước Trời cho các con”</i>.</p>
+                <p>Để được dự phần Thiên Quốc, Chúa Giêsu kêu mời chúng ta hãy trở nên như trẻ nhỏ, và nét đặc thù của tinh thần trẻ thơ chính là sự tín thác. Tín thác giúp ta ngõ lời cùng Thiên Chúa bằng cách mạnh dạn kêu xin và đón nhận mọi ân huệ của Ngài, Chúa Giêsu đã nói điều đó: <i>“Hãy xin sẽ được, hãy tìm sẽ gặp, hãy gõ cửa thì sẽ mở cho”</i>.</p>
+                <p><i>“Ai tin vào Danh Ta, Ta cho họ quyền được trở nên con cái Thiên Chúa”</i>.</p>
+            </section>
+
+            <section>
+                <h3>Thánh Vịnh 32</h3>
+                <p>
+                    Vua thắng trận, đâu phải bởi hùng binh.</br>
+                    Tráng sĩ thoát nguy đâu nhờ dũng lực</br>
+                    Tin chiến mã để thắng là huyền hoặc</br>
+                    Sức nó nhiều chẳng vì thế thoát thân.</br>
+                    Mắt Chúa nhìn xem người kính sợ,</br>
+                    Và những ai trông cậy Chúa thương yêu</br>
+                    Để cứu họ thoát tay tử thần</br>
+                    Và nuôi sống trong cơn đói kém.</br>
+                </p>
+                <p>
+                    Hồn chúng tôi trông chờ nơi Chúa,</br>
+                    Vì chính Người nâng đỡ chở che</br>
+                    Lòng chúng tôi vui mừng trong Chúa,</br>
+                    Vì chúng tôi trông cậy Thánh Danh Người.</br>
+                </p>
+                <p>
+                    Muôn lạy Chúa, xin Ngài thương đoái,</br>
+                    Như chúng tôi tin cậy nơi Ngài</br>
+                    Bây giờ đây, hỡi vua Chúa trần gian hãy hiểu biết</br>
+                    Hỡi các thẩm phán địa cầu hãy nghĩ mà xem</br>
+                </p>
+                <p>
+                    Hãy phụng sự Chúa với niềm kính úy</br>
+                    Hãy dâng lên Người tâm tình thờ lạy trong run sợ</br>
+                    Vì Người nổi giận và các ngươi diệt vong</br>
+                    Phúc thay ai nương ẩn nơi Người!</br>
+                </p>
+            </section>
+
+            <section>
+                <h3>Cầu nguyện</h3>
+                <p>Lạy Thần Khí của Chúa Giêsu, xin đến ở trong trí lòng con để xác thực con là con Thiên Chúa. Xin ban cho con sự khôn ngoan của Ngài để quán triệt thực tại thâm sâu này là Thiên Chúa Cha hằng yêu thương con và con quả có giá trước mặt Ngài. Nhờ sức mạnh tình yêu Ngài, ước gì toàn thân con kêu lên: <i>“Apba, Cha ơi, con là con Cha”</i>.</p>
+            </section>
+
+            <section>
+                <h3>Kinh Tận hiến gia đình </br>cho Thánh Tâm Chúa Giêsu</h3>
+                <div id="father-ded">
+                    <p>Lạy rất Thánh Trái Tim Đức Chúa Giêsu, con là <span id="father-sant">*sant-name*</span> gia trưởng, con hoàn toàn tin tưởng tận hiến con cho Ngài vì tình yêu. Trong ngày lê cưới của con, Ngài đã hứa sẽ hiện diện trong tình yêu vợ chồng chúng con, để giúp chúng con thực thi ơn gọi cao quý này. Lạy Chúa Giêsu, qua việc tận hiến này, con muốn lập lại, với tất cả nhận thức và tự do, những cam kết hôn nhân trước mặt vợ con và sự hiện diện của Ngài.</p>
+                    <p>Lạy Chúa Giêsu, con hết sức mong ước Ngài hãy làm chủ hộ gia đình con và hãy ngự trị trong trái tim của mỗi thành viên trong gia đình, xin hãy đổ thần khí tình yêu Ngài trong con, để con sống giữa gia đình con như người phục vụ, như Lời Ngài đã phán: Ta không đến để được phục vụ, nhưng để phục vụ.</p>
+                    <p>Trong tinh thần phục vụ này. Lạy Chúa Giêsu, xin hãy cho con nên tốt lành và cương nghị, hoàn toàn như thánh Giuse dưỡng phụ Ngài, để con luôn hăng say chu toàn đầy đủ trách nhiệm làm chồng và làm cha của con, xin giúp con luôn sẵn sàng lắng nghe các lời gợi ý tốt lành của các bậc thầy đích thực.</p>
+                    <p>Xin dạy con biết cần phải làm việc, cần phải học hỏi, phải sống nội tâm cá nhân, phải cầu nguyện, sự cầu nguyện mà chỉ mình Thiên Chúa thấy được trong nơi bí ẩn. Lạy Rất Thánh Trái Tim Đức Chúa Giêsu, con tin Lời Ngài, con nguyện xin Cha Ngài và cũng là Cha con nhận lời cầu xin khi tận hiến, bởi vì Ngài đã nói với chúng con, ai nhận các luật Thầy truyền và tuân giữ các luật đó, người ấy là kẻ yêu mến Thầy, và ai yêu mến Thầy sẽ được Cha Thầy yêu mến, và Thầy cũng sẽ yêu mến nó và sẽ tỏ mình ra cho nó. Amen.</p>
+                </div>
+
+                <div id="mother-ded">
+                    <p>Lạy rất Thánh Trái Tim Đức Chúa Giêsu, con là <span id="mother-sant">*sant-name*</span> mẹ gia đình, con hoàn toàn tin tưởng tận hiến con cho Ngài với tình yêu mến. Lạy Chúa Giêsu, Ngài đã có một người Mẹ đã từng yêu thương Ngài khi chu toàn đầy đủ trách nhiệm làm mẹ, bởi vì từ đỉnh cao thập giá, Ngài đã khấn ban Mẹ Ngài làm Mẹ chúng con, nhờ lời cầu bầu hiền mẫu của Mẹ, xin thực hiện trong trái tim người mẹ của con sự tận hiến này.</p>
+                    <p>Ước gì Đức Maria ảnh hưởng trên cuộc đời con, để trong mọi sự con luôn luôn phó thác theo thánh ý Chúa Cha.</p>
+                    <p>Ước gì Đức Maria, Thần Khí tình yêu lớn lên trong con, và dạy con ngày càng yêu mến Ngài hơn. Lạy Chúa Giêsu đang hiện diện trong trái tim chồng con và con cái con.</p>
+                    <p>Ước gì Đức Maria dạy con trung thành trong niềm tin như Người đã tin. <i>“Vâng, phúc cho Bà là kẻ đã tin rằng Lời Chúa phán cùng Bà sẽ được thực hiện.”</i></p>
+                    <p>Ước gì Đức Maria dạy con phục vụ gia đình và tất cả anh chị em con, như chính Người đã phục vụ tình yêu.</p>
+                    <p>Lạy Chúa Giêsu, con hướng về Đức Maria trong lời kinh đầy tin tưởng. Bởi vì chưa bao giờ nghe nói những ai chạy đến cùng Người, xin bầu chữa cứu giúp, mà bị bỏ rơi.</p>
+                    <p>Ước gì chứng tá trung thành, tin – cậy – mến của con ảnh hưởng trên mỗi thành viên của gia đình con, để mưu cầu hạnh phúc cho họ và để làm vinh danh Chúa Cha. Amen.</p>
+                </div>
+
+                <div id="child-ded">
+                    <p>Lạy rất Thánh Trái Tim Đức Chúa Giêsu, con là <span id="child-sant">*sant-name*</span>, hôm nay con tận hiện con như con cái gia đình.</p>
+                    <p>Lạy Chúa Giêsu, Ngài đã hỏi trong Phúc âm: Ai là mẹ Ta, ai là anh Ta và đã trả lời khi nói răng, gia đình đích thực của Ta là những ai làm theo ý Cha Ta trên trời.</p>
+                    <p>Qua việc tận hiến này, nhờ lời cầu bầu của Đức Maria và Thánh Giuse, Cha Mẹ Ngài, xin giúp con luôn làm theo ý Cha Ngài.</p>
+                    <p>Lạy Chúa Giêsu, Ngài đã làm cho Cha Mẹ Ngài như Ngày đã có. Ngài cũng thế, Phúc âm kể rằng: <i>“Ngài đã lớn lên trong khôn ngoan, trong tuổi tác và ân sủng, trước mặt Thiên Chúa và người ta”</i>, bởi vì ngài đã vâng phục Cha Mẹ Ngài.</p>
+                    <p>Lạy Chúa Giêsu, xin dạy con biết kính yêu và luôn vâng lời cha mẹ, trong tinh thần phục vụ và tri ân.</p>
+                    <p>Xin cũng ban cho con niềm vui được sống mãi trong tình yêu của Ngài. Nhờ việc xả thân phục vụ tha nhân và Thiên Chúa Cha. Amen.</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>Kết thúc buổi tận hiến</h3>
+                <p>Lạy Rất Thánh Trái Tim Đức Chúa Giêsu, xin ban cho chúng con được học cùng Ngài là đấng hiền lành và khiêm nhường, để tất cả chúng con trở nên đầy tớ cho nhau.</p>
+                <p>Xin cho mỗi thành viên trong Giáo hội tại gia chúng con biết chịu đựng lẫn nhau, cách kiên nhẫn và khoan dung, sẵn sàng biết xin lỗi và tha thứ cho nhau.</p>
+                <p>Xin cho mỗi thành viên chúng con biết làm mọi sự để duy trì bình an trong gia đình và phát huy sự đoàn kết trong tinh thần kính trọng mọi người. Xin hãy mở toang trái tim chúng con trước nhu cầu của các gia đình khác và trước việc làm chứng tin mừng. Xin che chở mọi gia đình. Lạy Chúa Giêsu xin gìn giữ họ khỏi tinh thần thế tục để thực hiện lời cầu nguyện của Ngài:</p>
+                <p><i>“Con không xin Cha đem chúng khỏi thế gian, nhưng xin gìn giữ chúng khỏi sự dữ, chúng không thuộc về thế gian, cũng như con không thuộc về thế gian. Xin hãy thánh hóa chúng trong sự thật. Lời Cha là sự thật, cũng như Cha đã sai Con vào thế gian thì con cũng sai chúng vào thế gian, và vì chúng con đã tự thánh hóa để cả chúng cũng được thánh hóa trong sự thật.”</i></p>
+                <p><i>“Con không cầu xin cho chúng mà thôi, nhưng còn cho tất cả những kẻ nhờ lời chúng mà tin vào con, để mọi người nên một, cũng như Cha ở trong Con và Con ở trong Cha, để cả chúng cũng nên một trong chúng ta, để thế gian tin rằng Cha đã sai con”</i>.</p>
+                <p>Ước gì Chúa Thánh Thần nung đỏ trái tim chúng con bằng tình yêu của Người và nung đốt chúng con khát vọng chia sẻ tình yêu cho kẻ khác. Amen.</p>
+            </section>
+
+            <section>
+                <h3>Lời cầu nguyện trong buổi giao ban</h3>
+                <p>Lạy Thánh Tâm Chúa Giêsu, gia đình Thánh Tâm chúng con xin cảm tạ Chúa. Vì mọi hồng ân Chúa xuống trên mọi thành viên chúng con. Hôm nay là ngày giao ban và là dịp để hâm nóng lòng tín thác vào Thánh Tâm Chúa. Song vì cuộc sống còn gặp nhiều khó khăn tinh thần lẫn vật chất. Mỗi thành viên chúng con không tránh khỏi những băn khoăn lo lắng. Nhiều khi tâm hồn chúng con còn nặng nề.</p>
+                <p>Xin Thánh Tâm Chúa ban ơn trợ giúp chúng con để chúng con thăng tiến về mọi mặt, nhất là năng thăm viếng Chúa Giêsu Thánh Thể, để đền bù phạt tạ Chúa vì tội lỗi của mọi người. Xin Chúa hãy cất bớt những lo toan trong cuộc sống hằng ngày của chúng con. Chúng con cầu xin nhờ Đức Kitô – Chúa chúng con. Amen.</p>
+            </section>
+
+            <section>
+                <h3>Kinh Rước lễ thiêng liên</h3>
+            </section>
+
+            <section>
+                <h3>Hát: Con xin dâng cho Mẹ ...</h3>
+            </section>
+
+        </div>
+    </div>
+</body>
+
+</html>
