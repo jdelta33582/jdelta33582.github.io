@@ -23,40 +23,40 @@
             <div class=" option subject-option">
                 <p>Đối tượng:</p>
 
-                <input type="radio" name="subject" id="father" value="father">
+                <input type="radio" name="subject" id="father" value="father" onclick="nextOption()">
                 <label for="father">Người cha</label>
     
-                <input type="radio" name="subject" id="mother" value="mother">
+                <input type="radio" name="subject" id="mother" value="mother" onclick="nextOption()">
                 <label for="mother">Người mẹ</label>
     
-                <input type="radio" name="subject" id="child" value="child">
+                <input type="radio" name="subject" id="child" value="child" onclick="nextOption()">
                 <label for="child">Người con</label>
             </div>
 
             <div class="option sant-name-option">
                 <p>Tên thánh:</p>
 
-                <input type="radio" name="sant-name" id="gioan" value="gioan">
+                <input type="radio" name="sant-name" id="gioan" value="gioan" onclick="showButton()">
                 <label for="gioan">Gioan</label>
             
-                <input type="radio" name="sant-name" id="giuse" value="giuse">
+                <input type="radio" name="sant-name" id="giuse" value="giuse" onclick="showButton()">
                 <label for="giuse">Giuse</label>
             
 
-                <input type="radio" name="sant-name" id="anton" value="anton">
+                <input type="radio" name="sant-name" id="anton" value="anton" onclick="showButton()">
                 <label for="anton">Antôn</label>
             
-                <input type="radio" name="sant-name" id="maria" value="maria">
+                <input type="radio" name="sant-name" id="maria" value="maria" onclick="showButton()">
                 <label for="maria">Maria</label>
             
-                <input type="radio" name="sant-name" id="terexa" value="terexa">
+                <input type="radio" name="sant-name" id="terexa" value="terexa" onclick="showButton()">
                 <label for="terexa">Têrêxa</label>
             
-                <input type="radio" name="sant-name" id="matta" value="matta">
+                <input type="radio" name="sant-name" id="matta" value="matta" onclick="showButton()">
                 <label for="matta">Matta</label>
             </div>
 
-            <button onclick="switchContent()">Bắt đầu</button>
+            <button id="start-btn" onclick="switchContent()">Bắt đầu</button>
         </div>
 
         <div id="content">

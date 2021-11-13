@@ -1,7 +1,67 @@
+function nextOption() {
+    document.getElementsByClassName("sant-name-option")[0].style.display = "block";
+    document.getElementById("start-btn").style.display = "none";
+
+    let sant_names = document.getElementsByName("sant-name");
+    for (let i = 0; i < sant_names.length; i++)
+    {
+        const element = sant_names[i];
+        element.checked = false;
+    }
+
+
+    let subs = document.getElementsByName("subject");
+    for (let i = 0; i < subs.length; i++)
+    {
+        const element = subs[i];
+        if (element.checked == true)
+        {
+            let sub = element.value;
+            
+            if (sub == "father")
+            {
+                document.querySelector('[for="gioan"]').style.display = "inline-block";
+
+                document.querySelector('[for="giuse"]').style.display = "none";
+                document.querySelector('[for="anton"]').style.display = "none";
+                document.querySelector('[for="maria"]').style.display = "none";
+                document.querySelector('[for="terexa"]').style.display = "none";
+                document.querySelector('[for="matta"]').style.display = "none";
+            }
+            else if (sub == "mother")
+            {
+                document.querySelector('[for="gioan"]').style.display = "none";
+                document.querySelector('[for="giuse"]').style.display = "none";
+                document.querySelector('[for="anton"]').style.display = "none";
+
+                document.querySelector('[for="maria"]').style.display = "inline-block";
+                document.querySelector('[for="terexa"]').style.display = "inline-block";
+                document.querySelector('[for="matta"]').style.display = "inline-block";
+            }
+            else
+            {
+                document.querySelector('[for="gioan"]').style.display = "inline-block";
+                document.querySelector('[for="giuse"]').style.display = "inline-block";
+                document.querySelector('[for="anton"]').style.display = "inline-block";
+
+                document.querySelector('[for="maria"]').style.display = "none";
+                document.querySelector('[for="terexa"]').style.display = "none";
+                document.querySelector('[for="matta"]').style.display = "none";
+            }
+        }
+    }
+    
+}
+
+function showButton() {
+    document.getElementById("start-btn").style.display = "block";
+}
+
 function switchContent() {
     let subs = document.getElementsByName("subject");
     let sub;
-    for (let i = 0; i < subs.length; i++) {
+    for (let i = 0; i < subs.length; i++)
+    {
         const element = subs[i];
         if (element.checked != true)
         {
@@ -14,7 +74,8 @@ function switchContent() {
     }
 
     let snts = document.getElementsByName("sant-name");
-    for (let j = 0; j < snts.length; j++) {
+    for (let j = 0; j < snts.length; j++)
+    {
         const element = snts[j];
         if (element.checked == true)
         {

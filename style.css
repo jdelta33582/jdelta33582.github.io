@@ -79,7 +79,7 @@ body {
 }
 
 #welcome button {
-    display: block;
+    display: none;
     padding: 0px 10px;
     border-radius: 10px;
     border: none;
@@ -87,10 +87,14 @@ body {
     height: 60px;
     margin: 50px auto;
     font-family: 'Alegreya SC', serif;
-    font-size: 24px;
+    font-size: 32px;
     background-color: #04aa6d;
     color: #fff;
     cursor: pointer;
+}
+
+.sant-name-option {
+    display: none;
 }
 
 #content {
