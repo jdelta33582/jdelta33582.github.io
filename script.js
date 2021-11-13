@@ -1,3 +1,8 @@
+function show() {
+    document.getElementById("footer").innerHTML = window.screen.width
+}
+
+
 function nextOption() {
     document.getElementsByClassName("sant-name-option")[0].style.display = "block";
     document.getElementById("start-btn").style.display = "none";
