@@ -113,8 +113,6 @@ function switchContent() {
         }
     }
 
-
-
     document.getElementById("welcome").style.display = "none";
     document.getElementById("content").style.display = "block";
 }

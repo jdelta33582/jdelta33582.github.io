@@ -1,63 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-@media (min-width: 1366px) {
+@media (max-width: 780px) {
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
-    
-    body {
-        overflow-x: hidden
-    }
-    
-    .wrap {
-        width: 100vw;
-        height: 100vh;
-    }
-    
+
     #welcome {
         background-image:
             linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
             url("web3-cropped-sacred-heart-sacre-coeur-heart-jesus-pd.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         width: 100vw;
         height: 100vh;
         color: #fff;
-        padding: 20vh 15vw;
+        padding: 15vh 5vw;
         font-family: 'Alegreya SC', serif;
+        font-size: 10px;
     }
-    
+
     #welcome .title {
         font-family: 'Alegreya SC', serif;
-        margin-bottom: 200px;
+        margin-bottom: 30vh;
     }
-    
+
     #welcome .title h1 {
-        font-size: 100px;
+        font-size: 4em;
     }
-    
+
     #welcome .title h3 {
-        font-size: 50px;
+        font-size: 2.4em;
     }
-    
+
     #welcome .option {
-        font-size: 32px;
-        margin-bottom: 25px;
+        font-size: 1.6em;
+        margin-bottom: 10px;
     }
     
     #welcome .option p {
-        display: inline-block;
-        margin-right: 20px;
+        display: block;
     }
     
     #welcome .option label {
         display: inline-block;
-        margin: 0px 5px;
-        padding: 0px 10px;
-        border: #fff solid 2px;
-        border-radius: 10px;
+        margin: 2px 2px;
+        padding: 0px 5px;
+        border: #fff solid 1px;
+        border-radius: 5px;
     }
     
     #welcome .option input[type="radio"] {
@@ -67,54 +59,52 @@
     }
     
     #welcome .option label:hover {
-        border: #04aa6d solid 2px;
+        border: #04aa6d solid 1px;
         color: #04aa6d;
     }
-      
-    
       
     #welcome .option input[type="radio"]:checked + label {
         color: #fff;
         background-color: #04aa6d;
-        border: #04aa6d solid 2px;
+        border: #04aa6d solid 1px;
     }
     
     #welcome button {
         display: none;
-        padding: 0px 10px;
-        border-radius: 10px;
+        padding: 0px 20px;
+        border-radius: 5px;
         border: none;
-        width: 240px;
-        height: 60px;
+        width: auto;
+        height: auto;
         margin: 50px auto;
         font-family: 'Alegreya SC', serif;
-        font-size: 32px;
+        font-size: 2.4em;
         background-color: #04aa6d;
         color: #fff;
         cursor: pointer;
     }
-    
+
     .sant-name-option {
         display: none;
     }
-    
+
     #content {
-        background: #fff;
-        padding: 30px;
-        font-size: 75px;
+        padding: 10px;
         display: none;
     }
-    
+
     #content section {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     
     #content h3 {
         font-family: 'Alegreya SC', serif;
+        font-size: 24px;
     }
     
     #content p, span{
         font-family: 'Alegreya', serif;
-        margin-bottom: 25px;
+        font-size: 2opx;
+        margin-bottom: 5px;
     }    
 }
